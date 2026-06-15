@@ -1,0 +1,65 @@
+ /* Special Meals of the day! */
+ * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 3rem 1rem;
+    }
+
+    .menu-section {
+      max-width: 960px;
+      width: 100%;
+    }
+
+    .menu-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+      text-align: center;
+    }
+
+    .menu-card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .food-img-wrap {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      overflow: hidden;
+      margin-bottom: 1.25rem;
+      border: 4px solid rgba(255, 255, 255, 0.1);
+    }
+
+    .food-img-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .food-name {
+      font-size: 18px;
+      font-weight: 700;
+      color: #F5C842;
+      margin-bottom: 0.5rem;
+    }
+
+    .food-desc {
+      font-size: 14px;
+      color: rgba(255, 255, 255, 0.65);
+      line-height: 1.6;
+      max-width: 220px;
+    }
+
+    @media (max-width: 640px) {
+      .menu-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    /* Special Meals of the day! */
