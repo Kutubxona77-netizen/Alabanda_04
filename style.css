@@ -13,7 +13,7 @@
 .navbar{
     width: 100%;
     height: 90px;
-    background: #063c36;
+    background: #00302E;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -74,7 +74,7 @@
 /* main section */
 body {
     font-family: system-ui,  'Segoe UI', sans-serif;
-    background-color: #002323;
+    background-color:  #00302E;
     color: #ffffff;
     line-height: 1.5;
   }
