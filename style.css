@@ -21,11 +21,6 @@ body {
 
 /*Header section*/
 
-
-
-
-
-
 .navbar {
   
   height: 90px;
@@ -155,4 +150,8 @@ body {
   border: 4px solid rgba(255, 255, 255, 0.1);
 }
 
+   .store-badges {
+            display: flex;
+            gap: 15px;
+        }
 /* main section */
