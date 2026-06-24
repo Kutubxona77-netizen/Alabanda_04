@@ -22,7 +22,7 @@ body {
 /*Header section*/
 
 .navbar {
-  
+
   height: 90px;
   background: #00302E;
   display: flex;
@@ -121,20 +121,6 @@ body {
   margin-bottom: 35px;
 }
 
-.store-badges {
-  /* display: flex; */
-  gap: 15px;
-}
-
-.store-btn {
-  height: 45px;
-  cursor: pointer;
-  transition: transform 0.2s;
-}
-
-.store-btn:hover {
-  transform: scale(1.03);
-}
 
 .hero-image-container {
   flex: 1;
@@ -150,8 +136,21 @@ body {
   border: 4px solid rgba(255, 255, 255, 0.1);
 }
 
-   .store-badges {
-            display: flex;
-            gap: 15px;
-        }
+.store-badges {
+  display: flex;
+  gap: 15px;
+}
+
+.store-badges button {
+  padding: 15px 30px;
+  background-color: #000000;
+  color: #FFFFFF;
+  height: 45px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.store-badges button:hover {
+  transform: scale(1.03);
+}
 /* main section */
