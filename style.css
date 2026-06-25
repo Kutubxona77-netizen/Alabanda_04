@@ -154,3 +154,15 @@ body {
   transform: scale(1.03);
 }
 /* main section */
+
+/* special-meals section */
+
+.special-meals{
+    text-align: center;
+    color: #ffff;
+    background-color:#00302E;
+    padding: 20px;
+    font-family: Poppins;
+}
+
+/* special-meals section */
