@@ -226,3 +226,82 @@ body {
 }
 
 /* mael */
+
+/* newsletter */
+
+.newsletter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  padding: 40px 24px;
+  max-width: 1200px;
+  margin: 0 auto;
+ 
+}
+
+
+.newsletter-content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.newsletter-title {
+  font-size: 28px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+  color: #FBDDBB; 
+}
+
+.newsletter-description {
+  font-size: 15px;
+  line-height: 1.5;
+  margin: 0;
+  color: #4a5553; 
+}
+
+
+.newsletter-form {
+  display: flex;
+  gap: 12px;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+.newsletter-input {
+  width: 280px;
+  padding: 14px 16px;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.newsletter-input:focus {
+  border-color: #0b221e;
+}
+
+.newsletter-input::placeholder {
+  color: #b0b0b0;
+}
+
+
+.newsletter-btn {
+  padding: 14px 24px;
+  border: none;
+  border-radius: 6px;
+  background-color: #f7d6b5; 
+  color: #0b221e;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background-color 0.2s;
+}
+
+.newsletter-btn:hover {
+  background-color: #ebd1b8;
+}
+/* newsletter */
