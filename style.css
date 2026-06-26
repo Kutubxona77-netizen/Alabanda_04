@@ -166,3 +166,60 @@ body {
 }
 
 /* special-meals section */
+
+/* mael */
+        .meals-section {
+            text-align: center;
+            padding: 60px 0;
+        }
+
+        .section-title {
+            font-size: 2rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .section-subtitle {
+            color: #a0b2b2;
+            max-width: 600px;
+            margin: 0 auto 60px auto;
+            font-size: 0.95rem;
+        }
+
+        .meals-grid {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .meal-card {
+            background-color: transparent;
+            width: 280px;
+            text-align: center;
+        }
+
+        .meal-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 25px;
+            transition: transform 0.3s;
+        }
+
+        .meal-card:hover .meal-img {
+            transform: rotate(10deg) scale(1.05);
+        }
+
+        .meal-name {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 10px;
+        }
+
+        .meal-desc {
+            color: #a0b2b2;
+            font-size: 0.9rem;
+        }
+/* mael */
