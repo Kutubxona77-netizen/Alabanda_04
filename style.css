@@ -171,7 +171,6 @@ body {
 /* mael */
 .meals-section {
   text-align: center;
-  padding: 60px 0;
 }
 
 .section-title {
@@ -190,22 +189,22 @@ body {
 .meals-grid {
   display: flex;
   justify-content: center;
-  gap: 40px;
-  flex-wrap: wrap;
+  gap: 180px;
+  margin-top: 90px;
 }
 
 .meal-card {
   background-color: transparent;
-  width: 280px;
+  width: 250px;
   text-align: center;
 }
 
 .meal-img {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   border-radius: 50%;
   object-fit: cover;
-  margin-bottom: 25px;
+
   transition: transform 0.3s;
 }
 
