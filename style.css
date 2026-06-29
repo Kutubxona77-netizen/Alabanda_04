@@ -189,7 +189,7 @@ body {
 .meals-grid {
   display: flex;
   justify-content: center;
-  gap: 180px;
+  gap: 220px;
   margin-top: 90px;
 }
 
@@ -200,9 +200,9 @@ body {
 }
 
 .meal-img {
-  width: 250px;
-  height: 250px;
-  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  border-radius: 400px;
   object-fit: cover;
 
   transition: transform 0.3s;
@@ -213,15 +213,19 @@ body {
 }
 
 .meal-name {
-  font-size: 1.25rem;
+  font-family: system-ui, 'Segoe UI', sans-serif;
+  height: 33px;
+  size: 27px;
   font-weight: 700;
   margin-bottom: 10px;
   color: #e2b98a;
 }
 
 .meal-desc {
-  color: #a0b2b2;
-  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.83);
+  height: 66px;
+  font-weight: 400;
+  size: 18px;
 }
 
 /* mael */
